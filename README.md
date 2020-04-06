@@ -1,6 +1,6 @@
 <h1 align="center">
   <img alt="DevRadar" 
-  title="DevRadar" src="./img/devradar.svg" width="300px" heigth="200px"/>
+  title="DevRadar" src="./img/devradar.svg"/>
 </h1>
 
 <h3 align="center">
