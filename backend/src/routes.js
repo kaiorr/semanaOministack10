@@ -1,15 +1,14 @@
-const express = require('express')
+const { Router } = require('express')
 
-const app = express()
-
-app.use(express.json());
+const routes = express.Router()
 
 //Query Params: req.query (Filtros, ordenação e paginação)
 //Route Params: req.params(Identificar um recusro na alteração e remoção)
 //Body: req.body (dados para criação ou alteração de um registro)
 
-app.get('/', (req, res) => {
+routes.post('/devs', (req, res) => {
+  console.log(req.body)
   return res.json({ menssagem: 'Hello Kaio Oministack10!' })
 })
 
-app.listen(3333)
+module.exports = routes
